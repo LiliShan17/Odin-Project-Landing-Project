@@ -1,5 +1,44 @@
-website {
+header {
+  padding-left: 350px;
+  padding-right: 350px;
   display: flex;
+  color: #f9faf8;
+}
+
+.headerright {
+}
+
+.mainblock {
+  background-color: #1f2937;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  font-family: arial;
+  color: #f9faf8;
+}
+
+.headerblurb {
+  font-size: 18px;
+  color: #e5e7eb;
+  
+}
+
+.website { 
+  padding-left: 350px;
+  padding-right: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftside {
+  margin: 10px;
+  align-items: stretch;
+}
+
+.cat {
+  padding: 20px;
 }
 
 footer {
