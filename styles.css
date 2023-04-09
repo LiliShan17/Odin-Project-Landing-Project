@@ -1,11 +1,16 @@
 header {
+  padding-top: 10px;
   padding-left: 350px;
   padding-right: 350px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 40%;
   color: #f9faf8;
 }
 
 .headerright {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 60px;
 }
 
 .mainblock {
@@ -33,12 +38,17 @@ h2 {
 }
 
 .leftside {
-  margin: 10px;
-  align-items: stretch;
 }
 
 .cat {
-  padding: 20px;
+  padding: 40px;
+}
+
+.random {
+  margin: 40px;
+  font-size: 48px;
+  font-weight: extra-bold;
+  font-family: arial;
 }
 
 footer {
@@ -74,8 +84,9 @@ footer {
 }
 
 .blue {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-template-rows: 1fr 1fr;
   margin-right: 150px;
   margin-left: 150px;
   margin-top: 75px;
@@ -89,8 +100,6 @@ footer {
 button {
   border-color: #f9faf8;
   border-style: solid;
-  margin-right: 450px;
-  margin-left: 450px;
   padding: 10px;
   background-color: #3882f6;
 }
@@ -115,8 +124,8 @@ a:active {
 }
 
 figure.item {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 25% 1fr 1fr 1fr 1fr 25%;
 }
 
 figcaption.caption {
@@ -129,10 +138,7 @@ div.box {
     width: 100px;
     height: 100px;
     border: 1px solid blue;
+    border-radius: 15px;
      background-color: white;
     margin: 30px;
-}
-
-div.wholebox {
-  justify-content: row;
 }
